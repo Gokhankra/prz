@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+
+<div class="col-md-6 offset-md-3">
+    <h1> from home html Hello world to base html</h1>
+<form method="POST" action="counter">
+    {% csrf_token %}
+    <form>
+        <textarea name="sellerid" rows=""25 cols="100"></textarea>
+        <input  type="submit"/>
+
+    </form>
+
+</div>
+
+
+
+
+{% endblock %}
